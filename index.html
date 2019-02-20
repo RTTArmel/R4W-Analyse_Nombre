@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="addition">
+                <center>
+                    <b>A: </b><input type="number" id="A"><br><br>
+                    <b>B: </b><input type="number" id="B"><br><br>
+                    <button id="boutton" onclick="calculer();">SOMME</button><br><br>
+                    <b>Resultat: </b><b id="res"></b>
+                </center>
+            </div>
+            <div class="col-md-6" id="multiplication">
+                <center>
+                    <b>C: </b><input type="number" id="C"><br><br>
+                    <b>D: </b><input type="number" id="D"><br><br>
+                    <button id="boutton" onclick="multiple();">Multiplication</button><br><br>
+                    <b>Resultat: </b><b id="res1"></b>
+                </center>
+            </div>      
+        </div>
+    </div>  
+    <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="test">
+                    <center>
+                        <b class="titre">Nombre: </b><input id="nombre"><br><br> 
+                        <button id="boutton" onclick="npp();">NPP</button><br><br>
+                        <table>
+                            <tr>
+                                <td>
+                                    <b class="result">Resultat: </b>
+                                </td>
+                                <td>
+                                    <b id="nbrp"></b>   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <b id="pairp"></b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <b id="premp"></b>
+                                </td>
+                            </tr>    
+                        </table>
+                    </center>
+                </div>
+                <div class="col-md-6" id="saisie">
+                    <center>
+                        <table>
+                            <tr>
+                                <td><b>Entrée: &nbsp</b></td>
+                                <td><div class="entre"><b id="entree"></b></div></td>
+                            </tr>
+                        </table><br><br>
+                        <button id="boutton1" onclick="un();">1</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button id="boutton" onclick="deux();">2</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button id="boutton" onclick="plus();">+</button>
+                    </center>
+                </div>       
+            </div>
+        </div>  
+    <script type="text/javascript" src="algo.js"></script>
+</body>
+</html>

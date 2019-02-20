@@ -1,0 +1,47 @@
+#addition{
+    margin-top: 30px;
+    background-color: rgb(224, 68, 68);
+    height: 300px;
+    padding-top: 20px;
+}
+#multiplication{
+    margin-top: 30px;
+    background-color: rgb(40, 168, 40);
+    height: 300px;
+    padding-top: 20px;
+}
+#test{
+    background-color: rgb(64, 70, 167);
+    height: 290px;
+    padding-top: 20px;
+}
+table{
+    text-align: left !important;
+}
+.titre{
+    margin-left: -60px !important;
+}
+#saisie{
+    background-color: rgb(204, 201, 53);
+    height: 290px;
+    padding-top: 20px;
+}
+center{
+    margin-top: 40px;
+}
+b{
+    font-size: 20px;
+}
+.entre{
+    width: 200px !important;
+    height: 25px;
+    border: 1px solid white;
+    background-color: white;
+    border: 1px solid grey;
+}
+button{
+    border-radius: 8px;
+}
+#boutton1{
+    margin-left: 90px !important;
+}
